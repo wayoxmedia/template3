@@ -3,8 +3,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>chefs</h2>
-        <p><span>Our</span> <span class="description-title">Proffesional Chefs<br></span></p>
+        <h2><?php echo CHEFS_TITLE; ?></h2>
+        <p><span><?php echo CHEFS_DESCRIPTION; ?><br></span></p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -23,9 +23,9 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Master Chef</span>
-                <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+                <h4><?php echo CHEF_1_NAME; ?></h4>
+                <span><?php echo CHEF_1_POSITION; ?></span>
+                <p><?php echo CHEF_1_DESCRIPTION; ?></p>
               </div>
             </div>
           </div><!-- End Chef Team Member -->
@@ -42,9 +42,9 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Patissier</span>
-                <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+                <h4><?php echo CHEF_2_NAME; ?></h4>
+                <span><?php echo CHEF_2_POSITION; ?></span>
+                <p><?php echo CHEF_2_DESCRIPTION; ?></p>
               </div>
             </div>
           </div><!-- End Chef Team Member -->
@@ -61,9 +61,9 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>Cook</span>
-                <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+                <h4><?php echo CHEF_3_NAME; ?></h4>
+                <span><?php echo CHEF_3_POSITION; ?></span>
+                <p><?php echo CHEF_3_DESCRIPTION; ?></p>
               </div>
             </div>
           </div><!-- End Chef Team Member -->

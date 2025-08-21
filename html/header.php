@@ -5,7 +5,7 @@
 
       <?php include 'nav.php'; ?>
 
-      <a class="btn-getstarted" href="index.php#book-a-table">Book a Table</a>
+      <a class="btn-getstarted" href="index.php#book-a-table"><?php echo BUTTON_TEXT; ?></a>
 
     </div>
   </header>
