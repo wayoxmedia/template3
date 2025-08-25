@@ -66,7 +66,7 @@ $(document).ready(function() {
       arrErrors.push('Por favor, seleccione un tipo de suscripción, ya sea correo o teléfono.');
     }
 
-    if (isValid) { debugger;
+    if (isValid) {
       let formData = new FormData(this);
       console.log('Formulario sera enviado porque es valido');
       $.ajax({

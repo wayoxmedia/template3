@@ -48,13 +48,9 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <?php echo COPYRIGHT; ?>
+       <p>© <span><?= COPYRIGHT ?></span> <strong class="px-1 sitename"><?= SITE_NAME ?></strong> <span><?= ALL_RIGHTS_RESERVED ?></span></p>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        <?php echo DESIGNED_BY; ?>
+        Designed by <a href="/"><?= DESIGNED_BY ?></a> Distributed by <a href="#"><?= DISTRIBUTED_BY ?></a>
       </div>
     </div>
 

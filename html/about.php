@@ -32,7 +32,7 @@
               </p>
 
               <div class="position-relative mt-4">
-                <img src="assets/img/about-2.jpg" class="img-fluid" alt="">
+                <img src="<?= IMG_ABOUT?>" class="img-fluid" alt="">
                 <a href="<?php echo URL_VIDEO; ?>" class="glightbox pulsating-play-btn"></a>
               </div>
             </div>
