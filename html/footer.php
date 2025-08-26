@@ -5,9 +5,8 @@
         <div class="col-lg-3 col-md-6 d-flex">
           <i class="bi bi-geo-alt icon"></i>
           <div class="address">
-            <h4>Address</h4>
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
+            <h4><?php echo ADDRESS_TITLE; ?></h4>
+            <p><?php echo ADDRESS; ?></p>
             <p></p>
           </div>
 
@@ -16,10 +15,10 @@
         <div class="col-lg-3 col-md-6 d-flex">
           <i class="bi bi-telephone icon"></i>
           <div>
-            <h4>Contact</h4>
+            <h4><?php echo CONTACT_TITLE; ?></h4>
             <p>
-              <strong>Phone:</strong> <span>+1 5589 55488 55</span><br>
-              <strong>Email:</strong> <span>info@example.com</span><br>
+              <strong><?php echo PHONE; ?></strong> <span><?php echo CALL_US; ?></span><br>
+              <strong><?php echo EMAIL; ?></strong> <span><?php echo EMAIL_US; ?></span><br>
             </p>
           </div>
         </div>
@@ -27,10 +26,10 @@
         <div class="col-lg-3 col-md-6 d-flex">
           <i class="bi bi-clock icon"></i>
           <div>
-            <h4>Opening Hours</h4>
+            <h4><?php echo OPENING_HOURS_TITLE; ?></h4>
             <p>
-              <strong>Mon-Sat:</strong> <span>11AM - 23PM</span><br>
-              <strong>Sunday</strong>: <span>Closed</span>
+              <strong><?php echo DAY_OPEN; ?></strong> <span><?php echo HOUR_OPEN; ?></span><br>
+              <strong><?php echo DAY_CLOSED; ?></strong>: <span><?php echo HOUR_CLOSED; ?></span>
             </p>
           </div>
         </div>
@@ -49,13 +48,9 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Yummy</strong> <span>All Rights Reserved</span></p>
+       <p>© <span><?= COPYRIGHT ?></span> <strong class="px-1 sitename"><?= SITE_NAME ?></strong> <span><?= ALL_RIGHTS_RESERVED ?></span></p>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com">ThemeWagon</a>
+        Designed by <a href="/"><?= DESIGNED_BY ?></a> Distributed by <a href="#"><?= DISTRIBUTED_BY ?></a>
       </div>
     </div>
 

@@ -25,6 +25,7 @@
   --accent-color: #ce1212; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --color-btn: #761978; /* Color for buttons, links, and other elements that need to stand out. This is the same as --accent-color but used specifically for button elements */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
@@ -51,7 +52,6 @@
   --surface-color: #37373f;
   --contrast-color: #ffffff;
 }
-
 /* Smooth scroll */
 :root {
   scroll-behavior: smooth;
@@ -114,7 +114,7 @@ h6 {
   border: 5px solid color-mix(in srgb, var(--accent-color), transparent 30%);
   top: -15%;
   left: -15%;
-  background: rgba(198, 16, 0, 0);
+  background: rgba(90, 1, 25, 0);
 }
 
 .pulsating-play-btn:after {

@@ -3,14 +3,14 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p><span>Need Help?</span> <span class="description-title">Contact Us</span></p>
+        <h2><?php echo CONTACT_TITLE; ?></h2>
+        <p><span><?php echo CONTACT_DESCRIPTION; ?></span> <span class="description-title"><?php echo CONTACT_DESCRIPTION2; ?></span></p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="mb-5">
-          <iframe style="width: 100%; height: 400px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen=""></iframe>
+          <iframe style="width: 100%; height: 400px;" src="<?php echo MAP_EMBED_URL; ?>" frameborder="0" allowfullscreen=""></iframe>
         </div><!-- End Google Maps -->
 
         <div class="row gy-4">
@@ -19,8 +19,8 @@
             <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
               <i class="icon bi bi-geo-alt flex-shrink-0"></i>
               <div>
-                <h3>Address</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <h3><?php echo ADDRESS_TITLE; ?></h3>
+                <p><?php echo ADDRESS; ?></p>
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -29,8 +29,8 @@
             <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
               <i class="icon bi bi-telephone flex-shrink-0"></i>
               <div>
-                <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
+                <h3><?php echo CALL_US_TITLE; ?></h3>
+                <p><?php echo CALL_US; ?></p>
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -39,8 +39,8 @@
             <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="400">
               <i class="icon bi bi-envelope flex-shrink-0"></i>
               <div>
-                <h3>Email Us</h3>
-                <p>info@example.com</p>
+                <h3><?php echo EMAIL_US_TITLE; ?></h3>
+                <p><?php echo EMAIL_US; ?></p>
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -49,8 +49,8 @@
             <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="500">
               <i class="icon bi bi-clock flex-shrink-0"></i>
               <div>
-                <h3>Opening Hours<br></h3>
-                <p><strong>Mon-Sat:</strong> 11AM - 23PM; <strong>Sunday:</strong> Closed</p>
+                <h3><?php echo OPENING_HOURS_TITLE; ?><br></h3>
+                <p><?php echo OPENING_HOURS; ?></p>
               </div>
             </div>
           </div><!-- End Info Item -->
