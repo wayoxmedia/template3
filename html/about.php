@@ -11,7 +11,7 @@
 
         <div class="row gy-4">
           <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/about.jpg" class="img-fluid mb-4" alt="">
+            <img src="<?= IMG_ABOUT; ?>" class="img-fluid mb-4" alt="">
             <div class="book-a-table">
               <h3><?php echo BUTTON_TEXT; ?></h3>
               <p><?php echo NUMBER_CONTACT; ?></p>
