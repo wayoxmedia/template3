@@ -12,7 +12,7 @@
             </div>
           </div>
           <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+            <img src="<?= IMG_HERO; ?>" class="img-fluid animated" alt="">
           </div>
         </div>
       </div>
